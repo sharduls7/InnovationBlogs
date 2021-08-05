@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Innovation Blogs</title>
+
+  <!-- Amdocs icon link -->
+  <link rel="icon" href= 
+  "data:image/jpeg;base64,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" 
+  type = "image/x-icon">
+
+  <!--<link rel="icon" href= 
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBUqMoxl1R_hP0lMZhoNi2IQ0j8lBEH3N_dQ&usqp=CAU" 
+  type = "image/x-icon">-->
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <script defer src="js/index.js"></script>
+  <!-- Main Script -->
+  <script defer src="js/script.js"></script>
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/26f143b2f9.js" crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+  </script>
+
+</head>
+
+<body>
+  <!-- preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- /preloader -->
+
+<!-- dividers -->
+<div class="dividers">
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+  <div class="divider"></div>
+</div>
+
+<header class="navigation">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/logo.jpg" style="height:80px" alt="parsa"></a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navogation"
+      aria-controls="navogation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navogation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-uppercase text-dark dropdown-toggle" href="#" id="categoryDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="categoryDropdown">
+            <a class="dropdown-item" href="javascript:callByCategory('Database')">Database</a>
+            <a class="dropdown-item" href="javascript:callByCategory('Lorem')">Lorem</a>
+            <a class="dropdown-item" href="javascript:callByCategory('Cloud')">Cloud</a>
+            <a class="dropdown-item" href="javascript:callByCategory('Datastructure & Algorithm')">DS & Algo</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-uppercase text-dark" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline position-relative ml-lg-4">
+        <input class="form-control px-0 w-100" type="search" placeholder="Search">
+        <!-- <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button> -->
+        <a href="search.html" class="search-icon"><i class="ti-search text-dark"></i></a>
+      </form>
+    </div>
+  </nav>
+</header>
+
+<!-- hero area -->
+<section class="hero-section" id="1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 align-self-end">
+        <h1 class="mb-0">Welcome</h1>
+        <h2 class="mb-100 title-border-lg">to <i>Jhon Abraham Blog</i></h2>
+        <p class="mb-80 mr-5">I’m a Freelance Interactive Art Director based in France. Focusing across branding and
+          identity, digital and
+          print.</p>
+        <span class="font-secondary text-dark mr-3 mr-sm-5">Follow</span>
+        <ul class="list-inline d-inline-block mb-5">
+          <li class="list-inline-item mx-3"><a href="#" class="text-dark"><i class="ti-facebook"></i></a></li>
+          <li class="list-inline-item mx-3"><a href="#" class="text-dark"><i class="ti-twitter-alt"></i></a></li>
+          <li class="list-inline-item mx-3"><a href="#" class="text-dark"><i class="ti-linkedin"></i></a></li>
+          <li class="list-inline-item mx-3"><a href="#" class="text-dark"><i class="ti-github"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-lg-6 text-right">
+        <img class="img-fluid" src="images/banner-img.png" alt="banner-image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /hero area -->
+<br>
+
+
+  <div class="sort">
+    <i class="fas fa-sort-up" id="sort" title="sort by popularity" onclick="sortBlogs()"></i>
+  </div>
+  <div class="filter">
+    <i class="fas fa-filter" id="filter" onclick="filterBlogs()"></i>
+  </div>
+
+
+
+<!-- blog post -->
+<section class="section">
+  <div class="container">
+    <div class="row" id="summaryDiv">
+      <!--<div class="col-12 mb-100">
+        <article data-file="articles/b.html" data-target="article" class="article-full-width">
+          <div class="post-image">
+            <img class="img-fluid" src="#" alt="post-thumb" id="blog_img">
+          </div>
+          <div class="post-content">
+            <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>June 2, 2018</li>
+              <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta">8 min</span> read</li>
+            </ul>
+            <h4 class="mb-4"><a href="blog-single.html" class="text-dark" id="article_title"></a></h4>
+            <p class="mb-0 post-summary" id="summary"></p> 
+            <a class="btn btn-transparent mb-4" href="blog-single.html">Continue...</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 mb-100">
+        <article data-file="articles/b.html" data-target="article" class="article-full-width article-right">
+          <div class="post-image">
+            <img class="img-fluid" src="images/masonary-post/post-3.jpg" alt="post-thumb">
+          </div>
+          <div class="post-content">
+            <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>June 2, 2018</li>
+              <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta">8 min</span> read</li>
+            </ul>
+            <h4 class="mb-4"><a href="blog-single.html" class="text-dark" id="article_title"></a></h4>
+            <p class="mb-0 post-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <a class="btn btn-transparent mb-4" href="blog-single.html">Continue...</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 mb-100">
+        <article data-file="articles/b.html" data-target="article" class="article-full-width">
+          <div class="post-image">
+            <img class="img-fluid" src="images/masonary-post/post-4.jpg" alt="post-thumb">
+          </div>
+          <div class="post-content">
+            <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>June 2, 2018</li>
+              <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta">8 min</span> read</li>
+            </ul>
+            <h4 class="mb-4"><a href="blog-single.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit</a></h4>
+            <p class="mb-0 post-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <a class="btn btn-transparent mb-4" href="blog-single.html">Continue...</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 mb-100">
+        <article data-file="articles/b.html" data-target="article" class="article-full-width article-right">
+          <div class="post-image">
+            <img class="img-fluid" src="images/masonary-post/post-5.jpg" alt="post-thumb">
+          </div>
+          <div class="post-content">
+            <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>June 2, 2018</li>
+              <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta">8 min</span> read</li>
+            </ul>
+            <h4 class="mb-4"><a href="blog-single.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit</a></h4>
+            <p class="mb-0 post-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <a class="btn btn-transparent mb-4" href="blog-single.html">Continue...</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 mb-100">
+        <article data-file="articles/b.html" data-target="article" class="article-full-width">
+          <div class="post-image">
+            <img class="img-fluid" src="images/masonary-post/post-6.jpg" alt="post-thumb">
+          </div>
+          <div class="post-content">
+            <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>June 2, 2018</li>
+              <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta">8 min</span> read</li>
+            </ul>
+            <h4 class="mb-4"><a href="blog-single.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit</a></h4>
+            <p class="mb-0 post-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <a class="btn btn-transparent mb-4" href="blog-single.html">Continue...</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-12 mb-100">
+        <article data-file="articles/b.html" data-target="article" class="article-full-width article-right">
+          <div class="post-image">
+            <img class="img-fluid" src="images/masonary-post/post-1.jpg" alt="post-thumb">
+          </div>
+          <div class="post-content">
+            <ul class="list-inline d-flex justify-content-between border-bottom post-meta pb-2 mb-4">
+              <li class="list-inline-item"><i class="ti-calendar mr-2"></i>June 2, 2018</li>
+              <li class="list-inline-item"><i class="ti-alarm-clock mr-2"></i><span class="eta">8 min</span> read</li>
+            </ul>
+            <h4 class="mb-4"><a href="blog-single.html" class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit</a></h4>
+            <p class="mb-0 post-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+            <a class="btn btn-transparent mb-4" href="blog-single.html">Continue...</a>
+          </div>
+        </article>
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <nav>
+          <ul class="pagination justify-content-center align-items-center" id="pagination-wrapper">
+            <!--<li class="page-item">
+              <span class="page-link">&laquo; Previous</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">01</a></li>
+            <li class="page-item active">
+              <span class="page-link">02</span>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">03</a></li>
+            <li class="page-item"><a class="page-link" href="#">04</a></li>
+            <li class="page-item"><a class="page-link" href="#">05</a></li>
+            <li class="page-item"><a class="page-link" href="#">06</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next &raquo;</a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog post -->
+
+<!-- instagram -->
+<section>
+  <div class="container-fluid px-0">
+    <div class="row no-gutters instagram-slider" id="instafeed" data-userId="4044026246"
+      data-accessToken="4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"></div>
+  </div>
+</section>
+<!-- /instagram -->
+
+<footer class="bg-secondary">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <a href="index.html"><img src="images/logo.png" alt="persa" class="img-fluid"></a>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Address</h6>
+          <ul class="list-unstyled">
+            <li class="font-secondary text-dark">Sydney</li>
+            <li class="font-secondary text-dark">6 rip carl Avenue CA 90733</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Contact Info</h6>
+          <ul class="list-unstyled">
+            <li class="font-secondary text-dark">Tel: +90 000 333 22</li>
+            <li class="font-secondary text-dark">Mail: exmaple@ymail.com</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+          <h6>Follow</h6>
+          <ul class="list-inline d-inline-block">
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="#" class="text-dark"><i class="ti-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center pb-3">
+    <p class="mb-0">Copyright ©<script>var CurrentYear = new Date().getFullYear()
+    document.write(CurrentYear)</script> a theme by  <a href="https://themefisher.com/">themefisher.com</a></p>
+  </div>
+</footer>
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- masonry -->
+<script src="plugins/masonry/masonry.js"></script>
+<!-- instafeed -->
+<script src="plugins/instafeed/instafeed.min.js"></script>
+<!-- smooth scroll -->
+<script src="plugins/smooth-scroll/smooth-scroll.js"></script>
+<!-- headroom -->
+<script src="plugins/headroom/headroom.js"></script>
+<!-- reading time -->
+<script src="plugins/reading-time/readingTime.min.js"></script>
+
+</body>
+</html>
