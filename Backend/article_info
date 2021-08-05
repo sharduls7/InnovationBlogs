@@ -1,0 +1,14 @@
+CREATE TABLE `article_info` (
+  `article_id` int(11) NOT NULL,
+  `author_name` text NOT NULL,
+  `author_emp_id` int(11) NOT NULL,
+  `date` date NOT NULL,
+  `article_title` varchar(100) NOT NULL,
+  `article_desc` text NOT NULL,
+  `attachment_path` varchar(100) NOT NULL,
+  `tags` varchar(100) NOT NULL,
+  `read_time` int(11) NOT NULL,
+  `read_count` int(11) NOT NULL,
+  `likes` int(11) NOT NULL,
+  `Category` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
